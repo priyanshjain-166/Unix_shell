@@ -32,7 +32,6 @@ int main() {
         cout<<cut(s)<<endl;
         continue; 
       }
-      cout<<"test\n";
       if(token1=="type"){
         string token2=cut(s);
         if(token2=="type" || token2=="exit" || token2=="echo"){
